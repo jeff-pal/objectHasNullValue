@@ -9,7 +9,8 @@ SAK is a JavaScript small library that provides useful algorithms tha might help
 The method **objectHasFalseValues()** returns true if it's found any false value (*null, undefined or false in a filed*), excepting zero. 
 
  
-Parameters
+### Parameters
+
 value - might be an object or a value.
 
 # Examples
