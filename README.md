@@ -1,6 +1,6 @@
 # Swiss Army Knife (SAK)
 
-SAK is a JavaScript small library that provides usefull algorithms tha might help you save time in your daily work.
+SAK is a JavaScript small library that provides useful algorithms tha might help you to save time in your daily work.
 
 # Methods
 
