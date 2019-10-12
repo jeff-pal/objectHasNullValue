@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script type="text/javascript" src="./index.js"></script>
+		<script>
+			let 
+				sak = new SAK(),
+				restult;
+			
+			result = sak.objectHasFalseValues([{foo:1}, 0, 1]);
+			console.log('Object  							Has any false value?');
+
+			result = sak.objectHasFalseValues([{foo:1}, 0, 1]);
+			console.log(`[{foo:1}, 0, 1]						${result? 'Yes' : 'No'}`);
+
+			result = sak.objectHasFalseValues([{}, [0], 1]);
+			console.log(`[{}, [0], 1]						${result? 'Yes' : 'No'}`);
+
+
+			result = sak.objectHasFalseValues([{foo:1, bar: undefined}, 0, 1]);
+			console.log(`[{foo:1, bar: undefined}, 0, 1]		${result? 'Yes' : 'No'}`);
+
+			result = sak.objectHasFalseValues([[1, undefined], 0, 1]);
+			console.log(`[[1, undefined], 0, 1]				${result? 'Yes' : 'No'}`);
+
+			result = sak.objectHasFalseValues([[], {}]);
+			console.log(`[[], {}]							${result? 'Yes' : 'No'}`);
+			</script>
+
+	</head>
+	<body>
+		<h1>Press F12 to see examples.</h1>
+	</body>
+</html>
