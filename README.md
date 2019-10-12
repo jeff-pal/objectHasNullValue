@@ -15,5 +15,5 @@ value - might be an object or a value.
 
 # Examples
 
-You can see some examples running the file index.html.
+You can see some examples running the file [index.html](index.html).
 
